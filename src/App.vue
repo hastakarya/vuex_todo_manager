@@ -2,6 +2,7 @@
   <div id="app">
     <div class="container">
       <AddTodos/>
+      <FilterTodos />
       <Todos/>
     </div>
   </div>
@@ -10,12 +11,14 @@
 <script>
 import Todos from './components/Todos.vue'
 import AddTodos from './components/AddTodo.vue'
+import FilterTodos from './components/FilterTodos.vue'
 
 export default {
   name: 'App',
   components: {
     Todos,
-    AddTodos
+    AddTodos,
+    FilterTodos
   }
 }
 </script>
